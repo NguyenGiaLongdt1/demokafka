@@ -1,0 +1,52 @@
+spring:
+  application:
+    name: demo
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/kafka_demo
+    username: kafka_demo
+    password: kafka_demo
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JacksonJsonSerializer
+      acks: all
+      retries: 5
+    consumer:
+      group-id: enterprise-demo
+      auto-offset-reset: earliest
+      key-deserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+      properties:
+        spring.deserializer.key.delegate.class: org.apache.kafka.common.serialization.StringDeserializer
+        spring.deserializer.value.delegate.class: org.springframework.kafka.support.serializer.JacksonJsonDeserializer
+        spring.json.trusted.packages: "*"
+        spring.json.use.type.headers: false
+
+app:
+  kafka:
+    request-topic: order.request
+    result-topic: order.result
+    dead-letter-topic: order.result.dlt
+  outbound:
+    worker-enabled: true
+    batch-size: 20
+    max-retry: 5
+    processing-timeout-seconds: 300
+    retry-delays-seconds: 10,30,60,300,900
+
+logging:
+  file:
+    name: demo.log
+
