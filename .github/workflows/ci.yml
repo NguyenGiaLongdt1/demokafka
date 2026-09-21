@@ -1,16 +1,22 @@
-name: Build and Push Docker Image
+name: CI/CD Pipeline
 
 on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'k8s/**'
+      - 'README.md'
+      - '.gitignore'
 
 jobs:
-  build-and-push:
+  build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout Code
         uses: actions/checkout@v4
 
       - name: Set up Docker Buildx
@@ -22,12 +28,28 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build and push Docker image
+      - name: Extract commit SHA
+        id: vars
+        run: echo "SHORT_SHA=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+
+      - name: Build and Push Docker image
         uses: docker/build-push-action@v5
         with:
           context: .
           file: ./Dockerfile
           push: true
           tags: |
+            ${{ secrets.DOCKERHUB_USERNAME }}/demo-app:${{ steps.vars.outputs.SHORT_SHA }}
             ${{ secrets.DOCKERHUB_USERNAME }}/demo-app:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/demo-app:${{ github.sha }}
+
+      - name: Update Image Tag in K8s Manifest
+        run: |
+          sed -i "s|image: .*/demo-app:.*|image: ${{ secrets.DOCKERHUB_USERNAME }}/demo-app:${{ steps.vars.outputs.SHORT_SHA }}|g" k8s/deployment.yaml
+
+      - name: Commit and Push Changes to Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add k8s/deployment.yaml
+          git diff --quiet && git diff --staged --quiet || (git commit -m "ci: update image tag to ${{ steps.vars.outputs.SHORT_SHA }} [skip ci]" && git push)
+
