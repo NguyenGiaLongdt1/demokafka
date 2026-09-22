@@ -1,4 +1,4 @@
 include:
   - project: 'nguyengialongvp/cicd-shared'
     ref: 'main'
-    file: '/demo/.gitlab-ci-template.yml'
+    file: '/app_backend/.gitlab-ci-template.yml'
