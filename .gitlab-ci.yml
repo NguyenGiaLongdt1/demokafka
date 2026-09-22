@@ -1,0 +1,4 @@
+include:
+  - project: 'nguyengialongvp/cicd-shared'
+    ref: 'main'
+    file: '/app_backend/.gitlab-ci-template.yml'
