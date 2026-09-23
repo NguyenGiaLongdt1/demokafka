@@ -1,7 +1,6 @@
+package com.example.demo.product;
+
 import org.springframework.web.bind.annotation.*;
-
-
-
 @RestController
 @RequestMapping("/practice/products")
 public class ProductController {
