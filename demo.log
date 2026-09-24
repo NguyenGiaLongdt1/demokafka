@@ -1,32 +1,32 @@
-2026-09-23T15:02:16.704+07:00  INFO 14444 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.10 with PID 14444 (C:\Users\Admin\OneDrive\Máy tính\kafka\demo\target\classes started by Admin in C:\Users\Admin\OneDrive\Máy tính\kafka\demo)
-2026-09-23T15:02:16.717+07:00  INFO 14444 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-09-23T15:02:16.822+07:00  INFO 14444 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-09-23T15:02:16.822+07:00  INFO 14444 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-09-23T15:02:17.653+07:00  INFO 14444 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2026-09-23T15:02:17.667+07:00  INFO 14444 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-09-23T15:02:17.842+07:00  INFO 14444 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 162 ms. Found 3 JPA repository interfaces.
-2026-09-23T15:02:17.861+07:00  INFO 14444 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2026-09-23T15:02:17.863+07:00  INFO 14444 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2026-09-23T15:02:17.886+07:00  INFO 14444 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.messaging.idempotency.ProcessedMessageRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-09-23T15:02:17.887+07:00  INFO 14444 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.messaging.outbound.repository.OutboundSendQueueRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-09-23T15:02:17.888+07:00  INFO 14444 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.order.repository.OrderRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-09-23T15:02:17.888+07:00  INFO 14444 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-2026-09-23T15:02:18.639+07:00  INFO 14444 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
-2026-09-23T15:02:18.656+07:00  INFO 14444 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-09-23T15:02:18.657+07:00  INFO 14444 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
-2026-09-23T15:02:18.712+07:00  INFO 14444 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1889 ms
-2026-09-23T15:02:19.035+07:00  INFO 14444 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-09-23T15:02:20.131+07:00  WARN 14444 --- [demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'flywayInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/flyway/autoconfigure/FlywayAutoConfiguration$FlywayConfiguration.class]: Unable to obtain connection from database: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2026-09-24T09:34:49.514+07:00  INFO 12824 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.10 with PID 12824 (C:\Users\Admin\OneDrive\Máy tính\kafka\demo\target\classes started by Admin in C:\Users\Admin\OneDrive\Máy tính\kafka\demo)
+2026-09-24T09:34:49.524+07:00  INFO 12824 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-09-24T09:34:49.588+07:00  INFO 12824 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-24T09:34:49.589+07:00  INFO 12824 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-24T09:34:50.456+07:00  INFO 12824 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24T09:34:50.456+07:00  INFO 12824 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-24T09:34:50.704+07:00  INFO 12824 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 229 ms. Found 3 JPA repository interfaces.
+2026-09-24T09:34:50.723+07:00  INFO 12824 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24T09:34:50.733+07:00  INFO 12824 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-09-24T09:34:50.761+07:00  INFO 12824 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.messaging.idempotency.ProcessedMessageRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-09-24T09:34:50.762+07:00  INFO 12824 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.messaging.outbound.repository.OutboundSendQueueRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-09-24T09:34:50.762+07:00  INFO 12824 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.order.repository.OrderRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-09-24T09:34:50.763+07:00  INFO 12824 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2026-09-24T09:34:51.616+07:00  INFO 12824 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-24T09:34:51.636+07:00  INFO 12824 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-24T09:34:51.637+07:00  INFO 12824 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-24T09:34:51.689+07:00  INFO 12824 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2099 ms
+2026-09-24T09:34:52.065+07:00  INFO 12824 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-24T09:34:53.166+07:00  WARN 12824 --- [demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'flywayInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/flyway/autoconfigure/FlywayAutoConfiguration$FlywayConfiguration.class]: Unable to obtain connection from database: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 SQL State  : 08001
 Error Code : 0
 Message    : Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 
-2026-09-23T15:02:20.147+07:00  INFO 14444 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2026-09-23T15:02:20.166+07:00  INFO 14444 --- [demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+2026-09-24T09:34:53.182+07:00  INFO 12824 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-09-24T09:34:53.204+07:00  INFO 12824 --- [demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2026-09-23T15:02:20.185+07:00 ERROR 14444 --- [demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+2026-09-24T09:34:53.227+07:00 ERROR 12824 --- [demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'flywayInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/flyway/autoconfigure/FlywayAutoConfiguration$FlywayConfiguration.class]: Unable to obtain connection from database: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -108,113 +108,1823 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:367) ~[postgresql-42.7.13.jar:42.7.13]
 	... 41 common frames omitted
 
-2026-09-23T16:18:31.296+07:00  INFO 17740 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.10 with PID 17740 (C:\Users\Admin\OneDrive\Máy tính\kafka\demo\target\classes started by Admin in C:\Users\Admin\OneDrive\Máy tính\kafka\demo)
-2026-09-23T16:18:31.306+07:00  INFO 17740 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
-2026-09-23T16:18:31.464+07:00  INFO 17740 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-09-23T16:18:31.465+07:00  INFO 17740 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-09-23T16:18:33.501+07:00  INFO 17740 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2026-09-23T16:18:33.511+07:00  INFO 17740 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-09-23T16:18:34.332+07:00  INFO 17740 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 784 ms. Found 3 JPA repository interfaces.
-2026-09-23T16:18:34.399+07:00  INFO 17740 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2026-09-23T16:18:34.402+07:00  INFO 17740 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2026-09-23T16:18:34.516+07:00  INFO 17740 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.messaging.idempotency.ProcessedMessageRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-09-23T16:18:34.530+07:00  INFO 17740 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.messaging.outbound.repository.OutboundSendQueueRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-09-23T16:18:34.531+07:00  INFO 17740 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.order.repository.OrderRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2026-09-23T16:18:34.532+07:00  INFO 17740 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 0 Redis repository interfaces.
-2026-09-23T16:18:36.036+07:00  INFO 17740 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
-2026-09-23T16:18:36.086+07:00  INFO 17740 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-09-23T16:18:36.088+07:00  INFO 17740 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
-2026-09-23T16:18:36.225+07:00  INFO 17740 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 4758 ms
-2026-09-23T16:18:36.876+07:00  INFO 17740 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-09-23T16:18:38.012+07:00  WARN 17740 --- [demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'flywayInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/flyway/autoconfigure/FlywayAutoConfiguration$FlywayConfiguration.class]: Unable to obtain connection from database: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-SQL State  : 08001
-Error Code : 0
-Message    : Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2026-09-24T09:37:35.453+07:00  INFO 2992 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.10 with PID 2992 (C:\Users\Admin\OneDrive\Máy tính\kafka\demo\target\classes started by Admin in C:\Users\Admin\OneDrive\Máy tính\kafka\demo)
+2026-09-24T09:37:35.461+07:00  INFO 2992 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-09-24T09:37:35.600+07:00  INFO 2992 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-24T09:37:35.600+07:00  INFO 2992 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-24T09:37:38.085+07:00  INFO 2992 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24T09:37:38.091+07:00  INFO 2992 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-24T09:37:38.724+07:00  INFO 2992 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 594 ms. Found 3 JPA repository interfaces.
+2026-09-24T09:37:38.776+07:00  INFO 2992 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24T09:37:38.781+07:00  INFO 2992 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-09-24T09:37:38.838+07:00  INFO 2992 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.messaging.idempotency.ProcessedMessageRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-09-24T09:37:38.839+07:00  INFO 2992 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.messaging.outbound.repository.OutboundSendQueueRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-09-24T09:37:38.841+07:00  INFO 2992 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.order.repository.OrderRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-09-24T09:37:38.842+07:00  INFO 2992 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+2026-09-24T09:37:40.822+07:00  INFO 2992 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-24T09:37:40.860+07:00  INFO 2992 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-24T09:37:40.861+07:00  INFO 2992 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-24T09:37:40.988+07:00  INFO 2992 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 5384 ms
+2026-09-24T09:37:41.706+07:00  INFO 2992 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-24T09:37:42.152+07:00  INFO 2992 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2dd90195
+2026-09-24T09:37:42.155+07:00  INFO 2992 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-24T09:37:42.221+07:00  INFO 2992 --- [demo] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://localhost:5432/kafka_demo (PostgreSQL 16.15)
+2026-09-24T09:37:42.446+07:00  INFO 2992 --- [demo] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 3 migrations (execution time 00:00.091s)
+2026-09-24T09:37:42.486+07:00  INFO 2992 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 3
+2026-09-24T09:37:42.495+07:00  INFO 2992 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2026-09-24T09:37:42.739+07:00  INFO 2992 --- [demo] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-24T09:37:42.904+07:00  INFO 2992 --- [demo] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-09-24T09:37:44.155+07:00  INFO 2992 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-24T09:37:44.392+07:00  INFO 2992 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/kafka_demo]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: kafka_demo/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-24T09:37:46.760+07:00  INFO 2992 --- [demo] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-24T09:37:46.940+07:00  INFO 2992 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-24T09:37:47.526+07:00  INFO 2992 --- [demo] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-24T09:37:50.916+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.config.AbstractConfig   : AdminClientConfig values: 
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = demo-admin-0
+	config.providers = []
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = false
+	metadata.max.age.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
 
-2026-09-23T16:18:38.020+07:00  INFO 17740 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2026-09-23T16:18:38.050+07:00  INFO 17740 --- [demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+2026-09-24T09:37:51.279+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 4.2.1
+2026-09-24T09:37:51.280+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 92f61c44867f39dc
+2026-09-24T09:37:51.282+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1790217471276
+2026-09-24T09:37:53.170+07:00  INFO 2992 --- [demo] [restartedMain] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-09-24T09:37:53.171+07:00  INFO 2992 --- [demo] [restartedMain] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-24T09:37:53.172+07:00  INFO 2992 --- [demo] [restartedMain] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-09-24T09:37:53.174+07:00  INFO 2992 --- [demo] [kafka-admin-client-thread | demo-admin-0] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for demo-admin-0 unregistered
+2026-09-24T09:37:53.186+07:00  INFO 2992 --- [demo] [kafka-admin-client-thread | demo-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-09-24T09:37:53.187+07:00  INFO 2992 --- [demo] [kafka-admin-client-thread | demo-admin-0] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-24T09:37:53.188+07:00  INFO 2992 --- [demo] [kafka-admin-client-thread | demo-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-09-24T09:37:53.246+07:00  INFO 2992 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-24T09:37:53.346+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.config.AbstractConfig   : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-fake-ministry-1
+	client.rack = 
+	config.providers = []
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = fake-ministry
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	share.acknowledgement.mode = implicit
+	share.acquire.mode = BATCH_OPTIMIZED
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
 
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2026-09-23T16:18:38.148+07:00 ERROR 17740 --- [demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+2026-09-24T09:37:53.463+07:00  INFO 2992 --- [demo] [restartedMain] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2026-09-24T09:37:53.705+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 4.2.1
+2026-09-24T09:37:53.705+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 92f61c44867f39dc
+2026-09-24T09:37:53.706+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1790217473705
+2026-09-24T09:37:53.710+07:00  INFO 2992 --- [demo] [restartedMain] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Subscribed to topic(s): order.request
+2026-09-24T09:37:53.735+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.config.AbstractConfig   : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-enterprise-demo-2
+	client.rack = 
+	config.providers = []
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = enterprise-demo
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	share.acknowledgement.mode = implicit
+	share.acquire.mode = BATCH_OPTIMIZED
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
 
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'flywayInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/flyway/autoconfigure/FlywayAutoConfiguration$FlywayConfiguration.class]: Unable to obtain connection from database: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-SQL State  : 08001
-Error Code : 0
-Message    : Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2026-09-24T09:37:53.737+07:00  INFO 2992 --- [demo] [restartedMain] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2026-09-24T09:37:53.767+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 4.2.1
+2026-09-24T09:37:53.769+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 92f61c44867f39dc
+2026-09-24T09:37:53.769+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1790217473767
+2026-09-24T09:37:53.770+07:00  INFO 2992 --- [demo] [restartedMain] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Subscribed to topic(s): order.result
+2026-09-24T09:37:53.791+07:00  INFO 2992 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 19.568 seconds (process running for 20.872)
+2026-09-24T09:37:53.824+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-09-24T09:37:53.824+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-09-24T09:37:53.856+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false)
+2026-09-24T09:37:53.856+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false)
+2026-09-24T09:37:53.863+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] (Re-)joining group
+2026-09-24T09:37:53.863+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] (Re-)joining group
+2026-09-24T09:37:53.961+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Request joining group due to: need to re-join with the given member-id: consumer-fake-ministry-1-53819d0e-cbb2-49f6-a325-243af8ce3098
+2026-09-24T09:37:53.961+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Request joining group due to: need to re-join with the given member-id: consumer-enterprise-demo-2-6b63b8bc-6cd5-48c8-9ec8-f09462256c5d
+2026-09-24T09:37:53.963+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] (Re-)joining group
+2026-09-24T09:37:53.964+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] (Re-)joining group
+2026-09-24T09:38:08.583+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Successfully joined group with generation Generation{generationId=28, memberId='consumer-enterprise-demo-2-6b63b8bc-6cd5-48c8-9ec8-f09462256c5d', protocol='range'}
+2026-09-24T09:38:08.584+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Successfully joined group with generation Generation{generationId=28, memberId='consumer-fake-ministry-1-53819d0e-cbb2-49f6-a325-243af8ce3098', protocol='range'}
+2026-09-24T09:38:08.599+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Finished assignment for group at generation 28: {consumer-fake-ministry-1-53819d0e-cbb2-49f6-a325-243af8ce3098=Assignment(partitions=[order.request-0, order.request-1, order.request-2])}
+2026-09-24T09:38:08.599+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Finished assignment for group at generation 28: {consumer-enterprise-demo-2-6b63b8bc-6cd5-48c8-9ec8-f09462256c5d=Assignment(partitions=[order.result-0, order.result-1, order.result-2])}
+2026-09-24T09:38:08.651+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Successfully synced group in generation Generation{generationId=28, memberId='consumer-fake-ministry-1-53819d0e-cbb2-49f6-a325-243af8ce3098', protocol='range'}
+2026-09-24T09:38:08.652+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Successfully synced group in generation Generation{generationId=28, memberId='consumer-enterprise-demo-2-6b63b8bc-6cd5-48c8-9ec8-f09462256c5d', protocol='range'}
+2026-09-24T09:38:08.652+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Notifying assignor about the new Assignment(partitions=[order.result-0, order.result-1, order.result-2])
+2026-09-24T09:38:08.652+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Notifying assignor about the new Assignment(partitions=[order.request-0, order.request-1, order.request-2])
+2026-09-24T09:38:08.658+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] k.c.c.i.ConsumerRebalanceListenerInvoker : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Adding newly assigned partitions: [order.request-0, order.request-1, order.request-2]
+2026-09-24T09:38:08.658+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] k.c.c.i.ConsumerRebalanceListenerInvoker : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Adding newly assigned partitions: [order.result-0, order.result-1, order.result-2]
+2026-09-24T09:38:08.697+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.result-2 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T09:38:08.697+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.request-1 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T09:38:08.702+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.request-2 to the committed offset FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T09:38:08.702+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.result-1 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T09:38:08.702+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.request-0 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T09:38:08.702+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.result-0 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T09:38:08.704+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : fake-ministry: partitions assigned: [order.request-0, order.request-1, order.request-2]
+2026-09-24T09:38:08.704+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : enterprise-demo: partitions assigned: [order.result-0, order.result-1, order.result-2]
+2026-09-24T09:39:27.735+07:00  INFO 2992 --- [demo] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-24T09:39:27.735+07:00  INFO 2992 --- [demo] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-24T09:39:27.735+07:00  INFO 2992 --- [demo] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-09-24T09:39:28.248+07:00  WARN 2992 --- [demo] [http-nio-8081-exec-1] io.netty.bootstrap.Bootstrap             : Unknown channel option 'TCP_KEEPCOUNT' for channel '[id: 0xc5665eb6]' of type 'class io.netty.channel.socket.nio.NioSocketChannel'
+2026-09-24T09:39:28.248+07:00  WARN 2992 --- [demo] [http-nio-8081-exec-1] io.netty.bootstrap.Bootstrap             : Unknown channel option 'TCP_KEEPIDLE' for channel '[id: 0xc5665eb6]' of type 'class io.netty.channel.socket.nio.NioSocketChannel'
+2026-09-24T09:39:28.248+07:00  WARN 2992 --- [demo] [http-nio-8081-exec-1] io.netty.bootstrap.Bootstrap             : Unknown channel option 'TCP_KEEPINTERVAL' for channel '[id: 0xc5665eb6]' of type 'class io.netty.channel.socket.nio.NioSocketChannel'
+2026-09-24T09:39:28.310+07:00 ERROR 2992 --- [demo] [http-nio-8081-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis] with root cause
 
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-7.0.9.jar:7.0.9]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201) ~[spring-beans-7.0.9.jar:7.0.9]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:977) ~[spring-context-7.0.9.jar:7.0.9]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
-	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
-	at com.example.demo.DemoApplication.main(DemoApplication.java:14) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/flyway/autoconfigure/FlywayAutoConfiguration$FlywayConfiguration.class]: Unable to obtain connection from database: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-SQL State  : 08001
-Error Code : 0
-Message    : Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1815) ~[spring-beans-7.0.9.jar:7.0.9]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.9.jar:7.0.9]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:309) ~[spring-beans-7.0.9.jar:7.0.9]
-	... 15 common frames omitted
-Caused by: org.flywaydb.core.internal.exception.sqlExceptions.FlywaySqlUnableToConnectToDbException: Unable to obtain connection from database: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-SQL State  : 08001
-Error Code : 0
-Message    : Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-
-	at org.flywaydb.core.internal.jdbc.JdbcUtils.openConnection(JdbcUtils.java:78) ~[flyway-core-12.4.0.jar:na]
-	at org.flywaydb.core.internal.jdbc.JdbcConnectionFactory.<init>(JdbcConnectionFactory.java:76) ~[flyway-core-12.4.0.jar:na]
-	at org.flywaydb.core.FlywayExecutor.init(FlywayExecutor.java:275) ~[flyway-core-12.4.0.jar:na]
-	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:120) ~[flyway-core-12.4.0.jar:na]
-	at org.flywaydb.core.Flyway.migrate(Flyway.java:181) ~[flyway-core-12.4.0.jar:na]
-	at org.springframework.boot.flyway.autoconfigure.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:67) ~[spring-boot-flyway-4.1.1.jar:4.1.1]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862) ~[spring-beans-7.0.9.jar:7.0.9]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1811) ~[spring-beans-7.0.9.jar:7.0.9]
-	... 22 common frames omitted
-Caused by: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:427) ~[postgresql-42.7.13.jar:42.7.13]
-	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:52) ~[postgresql-42.7.13.jar:42.7.13]
-	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:295) ~[postgresql-42.7.13.jar:42.7.13]
-	at org.postgresql.Driver.makeConnection(Driver.java:437) ~[postgresql-42.7.13.jar:42.7.13]
-	at org.postgresql.Driver.connect(Driver.java:305) ~[postgresql-42.7.13.jar:42.7.13]
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:97) ~[HikariCP-7.0.2.jar:na]
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-7.0.2.jar:na]
-	at org.flywaydb.core.internal.jdbc.JdbcUtils.openConnection(JdbcUtils.java:73) ~[flyway-core-12.4.0.jar:na]
-	... 29 common frames omitted
-Caused by: java.net.ConnectException: Connection refused: no further information
+java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
-	at org.postgresql.core.PGStream.createSocket(PGStream.java:270) ~[postgresql-42.7.13.jar:42.7.13]
-	at org.postgresql.core.PGStream.<init>(PGStream.java:131) ~[postgresql-42.7.13.jar:42.7.13]
-	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:221) ~[postgresql-42.7.13.jar:42.7.13]
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:367) ~[postgresql-42.7.13.jar:42.7.13]
-	... 41 common frames omitted
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:384) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.17.Final.jar:4.2.17.Final]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
 
+2026-09-24T09:39:58.705+07:00  WARN 2992 --- [demo] [http-nio-8081-exec-4] io.netty.bootstrap.Bootstrap             : Unknown channel option 'TCP_KEEPCOUNT' for channel '[id: 0xd5742269]' of type 'class io.netty.channel.socket.nio.NioSocketChannel'
+2026-09-24T09:39:58.705+07:00  WARN 2992 --- [demo] [http-nio-8081-exec-4] io.netty.bootstrap.Bootstrap             : Unknown channel option 'TCP_KEEPIDLE' for channel '[id: 0xd5742269]' of type 'class io.netty.channel.socket.nio.NioSocketChannel'
+2026-09-24T09:39:58.705+07:00  WARN 2992 --- [demo] [http-nio-8081-exec-4] io.netty.bootstrap.Bootstrap             : Unknown channel option 'TCP_KEEPINTERVAL' for channel '[id: 0xd5742269]' of type 'class io.netty.channel.socket.nio.NioSocketChannel'
+2026-09-24T15:55:22.333+07:00  INFO 11484 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.10 with PID 11484 (C:\Users\Admin\OneDrive\Máy tính\kafka\demo\target\classes started by Admin in C:\Users\Admin\OneDrive\Máy tính\kafka\demo)
+2026-09-24T15:55:22.340+07:00  INFO 11484 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-09-24T15:55:22.433+07:00  INFO 11484 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-24T15:55:22.433+07:00  INFO 11484 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-24T15:55:23.333+07:00  INFO 11484 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24T15:55:23.337+07:00  INFO 11484 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-24T15:55:23.538+07:00  INFO 11484 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 186 ms. Found 3 JPA repository interfaces.
+2026-09-24T15:55:23.564+07:00  INFO 11484 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24T15:55:23.566+07:00  INFO 11484 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-09-24T15:55:23.587+07:00  INFO 11484 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.messaging.idempotency.ProcessedMessageRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-09-24T15:55:23.588+07:00  INFO 11484 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.messaging.outbound.repository.OutboundSendQueueRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-09-24T15:55:23.589+07:00  INFO 11484 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.order.repository.OrderRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-09-24T15:55:23.589+07:00  INFO 11484 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2026-09-24T15:55:24.496+07:00  INFO 11484 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-09-24T15:55:24.516+07:00  INFO 11484 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-24T15:55:24.518+07:00  INFO 11484 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-24T15:55:24.570+07:00  INFO 11484 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2135 ms
+2026-09-24T15:55:24.868+07:00  INFO 11484 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-24T15:55:25.105+07:00  INFO 11484 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7c86334
+2026-09-24T15:55:25.107+07:00  INFO 11484 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-24T15:55:25.244+07:00  INFO 11484 --- [demo] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://localhost:5432/kafka_demo (PostgreSQL 16.15)
+2026-09-24T15:55:26.133+07:00  INFO 11484 --- [demo] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 3 migrations (execution time 00:00.328s)
+2026-09-24T15:55:26.162+07:00  INFO 11484 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 3
+2026-09-24T15:55:26.167+07:00  INFO 11484 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2026-09-24T15:55:26.287+07:00  INFO 11484 --- [demo] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-24T15:55:26.408+07:00  INFO 11484 --- [demo] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-09-24T15:55:26.957+07:00  INFO 11484 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-24T15:55:27.482+07:00  INFO 11484 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/kafka_demo]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: kafka_demo/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-24T15:55:28.639+07:00  INFO 11484 --- [demo] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-24T15:55:29.718+07:00  INFO 11484 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-24T15:55:29.905+07:00  INFO 11484 --- [demo] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-24T15:55:29.762+07:00  INFO 2992 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 34 class path changes (0 additions, 34 deletions, 0 modifications)
+2026-09-24T15:55:31.391+07:00  INFO 11484 --- [demo] [restartedMain] o.a.kafka.common.config.AbstractConfig   : AdminClientConfig values: 
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = demo-admin-0
+	config.providers = []
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = false
+	metadata.max.age.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2026-09-24T15:55:31.567+07:00  INFO 11484 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 4.2.1
+2026-09-24T15:55:31.567+07:00  INFO 11484 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 92f61c44867f39dc
+2026-09-24T15:55:31.567+07:00  INFO 11484 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1790240131567
+2026-09-24T15:55:48.813+07:00  INFO 11484 --- [demo] [restartedMain] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-09-24T15:55:48.814+07:00  INFO 11484 --- [demo] [restartedMain] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-24T15:55:48.814+07:00  INFO 11484 --- [demo] [restartedMain] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-09-24T15:55:48.815+07:00  INFO 11484 --- [demo] [kafka-admin-client-thread | demo-admin-0] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for demo-admin-0 unregistered
+2026-09-24T15:55:48.820+07:00  INFO 11484 --- [demo] [kafka-admin-client-thread | demo-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-09-24T15:55:48.820+07:00  INFO 11484 --- [demo] [kafka-admin-client-thread | demo-admin-0] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-24T15:55:48.820+07:00  INFO 11484 --- [demo] [kafka-admin-client-thread | demo-admin-0] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-09-24T15:55:48.845+07:00  INFO 11484 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-09-24T15:55:48.887+07:00  INFO 11484 --- [demo] [restartedMain] o.a.kafka.common.config.AbstractConfig   : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-fake-ministry-1
+	client.rack = 
+	config.providers = []
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = fake-ministry
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	share.acknowledgement.mode = implicit
+	share.acquire.mode = BATCH_OPTIMIZED
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+
+2026-09-24T15:55:48.945+07:00  INFO 11484 --- [demo] [restartedMain] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2026-09-24T15:55:49.028+07:00  INFO 11484 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 4.2.1
+2026-09-24T15:55:49.028+07:00  INFO 11484 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 92f61c44867f39dc
+2026-09-24T15:55:49.028+07:00  INFO 11484 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1790240149028
+2026-09-24T15:55:49.031+07:00  INFO 11484 --- [demo] [restartedMain] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Subscribed to topic(s): order.request
+2026-09-24T15:55:49.040+07:00  INFO 11484 --- [demo] [restartedMain] o.a.kafka.common.config.AbstractConfig   : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-enterprise-demo-2
+	client.rack = 
+	config.providers = []
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = enterprise-demo
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	share.acknowledgement.mode = implicit
+	share.acquire.mode = BATCH_OPTIMIZED
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+
+2026-09-24T15:55:49.041+07:00  INFO 11484 --- [demo] [restartedMain] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2026-09-24T15:55:49.053+07:00  INFO 11484 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 4.2.1
+2026-09-24T15:55:49.053+07:00  INFO 11484 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 92f61c44867f39dc
+2026-09-24T15:55:49.053+07:00  INFO 11484 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1790240149053
+2026-09-24T15:55:49.054+07:00  INFO 11484 --- [demo] [restartedMain] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Subscribed to topic(s): order.result
+2026-09-24T15:55:49.067+07:00  INFO 11484 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 27.341 seconds (process running for 28.057)
+2026-09-24T15:55:49.402+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-09-24T15:55:50.178+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-09-24T15:55:50.227+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false)
+2026-09-24T15:55:50.227+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false)
+2026-09-24T15:55:50.230+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] (Re-)joining group
+2026-09-24T15:55:50.230+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] (Re-)joining group
+2026-09-24T15:55:52.115+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Request joining group due to: need to re-join with the given member-id: consumer-fake-ministry-1-1c62ebfc-551b-4af7-b98c-7fa996dd3776
+2026-09-24T15:55:52.115+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Request joining group due to: need to re-join with the given member-id: consumer-enterprise-demo-2-a8106c7d-1953-4cd3-86a8-91d24d5c38c2
+2026-09-24T15:55:52.116+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] (Re-)joining group
+2026-09-24T15:55:52.116+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] (Re-)joining group
+2026-09-24T15:55:52.776+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] k.c.c.i.ConsumerRebalanceListenerInvoker : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Revoke previously assigned partitions [order.result-0, order.result-1, order.result-2]
+2026-09-24T15:55:52.776+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] k.c.c.i.ConsumerRebalanceListenerInvoker : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Revoke previously assigned partitions [order.request-0, order.request-1, order.request-2]
+2026-09-24T15:55:53.164+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : fake-ministry: partitions revoked: [order.request-0, order.request-1, order.request-2]
+2026-09-24T15:55:53.222+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : enterprise-demo: partitions revoked: [order.result-0, order.result-1, order.result-2]
+2026-09-24T15:55:53.788+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Member consumer-enterprise-demo-2-6b63b8bc-6cd5-48c8-9ec8-f09462256c5d sending LeaveGroup request to coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false) due to the consumer unsubscribed from all topics
+2026-09-24T15:55:53.788+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Member consumer-fake-ministry-1-53819d0e-cbb2-49f6-a325-243af8ce3098 sending LeaveGroup request to coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false) due to the consumer unsubscribed from all topics
+2026-09-24T15:55:54.069+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Resetting generation and member id due to: consumer pro-actively leaving the group
+2026-09-24T15:55:54.069+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Resetting generation and member id due to: consumer pro-actively leaving the group
+2026-09-24T15:55:54.069+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Request joining group due to: consumer pro-actively leaving the group
+2026-09-24T15:55:54.069+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Request joining group due to: consumer pro-actively leaving the group
+2026-09-24T15:55:54.070+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Unsubscribed all topics or patterns and assigned partitions
+2026-09-24T15:55:54.070+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Unsubscribed all topics or patterns and assigned partitions
+2026-09-24T15:55:55.461+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Resetting generation and member id due to: consumer pro-actively leaving the group
+2026-09-24T15:55:55.461+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Resetting generation and member id due to: consumer pro-actively leaving the group
+2026-09-24T15:55:55.461+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Request joining group due to: consumer pro-actively leaving the group
+2026-09-24T15:55:55.461+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Request joining group due to: consumer pro-actively leaving the group
+2026-09-24T15:55:58.011+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Successfully joined group with generation Generation{generationId=29, memberId='consumer-enterprise-demo-2-a8106c7d-1953-4cd3-86a8-91d24d5c38c2', protocol='range'}
+2026-09-24T15:55:58.019+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Finished assignment for group at generation 29: {consumer-enterprise-demo-2-a8106c7d-1953-4cd3-86a8-91d24d5c38c2=Assignment(partitions=[order.result-0, order.result-1, order.result-2])}
+2026-09-24T15:55:58.109+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Successfully joined group with generation Generation{generationId=29, memberId='consumer-fake-ministry-1-1c62ebfc-551b-4af7-b98c-7fa996dd3776', protocol='range'}
+2026-09-24T15:55:58.109+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Finished assignment for group at generation 29: {consumer-fake-ministry-1-1c62ebfc-551b-4af7-b98c-7fa996dd3776=Assignment(partitions=[order.request-0, order.request-1, order.request-2])}
+2026-09-24T15:56:00.559+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Successfully synced group in generation Generation{generationId=29, memberId='consumer-fake-ministry-1-1c62ebfc-551b-4af7-b98c-7fa996dd3776', protocol='range'}
+2026-09-24T15:56:00.559+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Successfully synced group in generation Generation{generationId=29, memberId='consumer-enterprise-demo-2-a8106c7d-1953-4cd3-86a8-91d24d5c38c2', protocol='range'}
+2026-09-24T15:56:00.560+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Notifying assignor about the new Assignment(partitions=[order.request-0, order.request-1, order.request-2])
+2026-09-24T15:56:00.560+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Notifying assignor about the new Assignment(partitions=[order.result-0, order.result-1, order.result-2])
+2026-09-24T15:56:00.567+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] k.c.c.i.ConsumerRebalanceListenerInvoker : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Adding newly assigned partitions: [order.result-0, order.result-1, order.result-2]
+2026-09-24T15:56:00.567+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] k.c.c.i.ConsumerRebalanceListenerInvoker : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Adding newly assigned partitions: [order.request-0, order.request-1, order.request-2]
+2026-09-24T15:56:01.048+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.request-1 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T15:56:01.048+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.result-2 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T15:56:01.051+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.request-2 to the committed offset FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T15:56:01.051+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.result-1 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T15:56:01.051+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.request-0 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T15:56:01.052+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.result-0 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T15:56:01.052+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : enterprise-demo: partitions assigned: [order.result-0, order.result-1, order.result-2]
+2026-09-24T15:56:01.052+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : fake-ministry: partitions assigned: [order.request-0, order.request-1, order.request-2]
+2026-09-24T15:56:01.817+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-09-24T15:56:01.817+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-09-24T15:56:01.826+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-24T15:56:01.826+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-24T15:56:01.826+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2026-09-24T15:56:01.826+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2026-09-24T15:56:01.830+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-09-24T15:56:01.830+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-09-24T15:56:02.424+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-fake-ministry-1 unregistered
+2026-09-24T15:56:02.425+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-enterprise-demo-2 unregistered
+2026-09-24T15:56:02.465+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : enterprise-demo: Consumer stopped
+2026-09-24T15:56:02.535+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : fake-ministry: Consumer stopped
+2026-09-24T15:56:02.829+07:00  INFO 2992 --- [demo] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-24T15:56:03.594+07:00  INFO 2992 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-24T15:56:05.923+07:00  INFO 2992 --- [demo] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-24T15:56:06.505+07:00  INFO 2992 --- [demo] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-09-24T15:56:06.588+07:00  INFO 2992 --- [demo] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-09-24T15:56:10.804+07:00  INFO 2992 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.10 with PID 2992 (C:\Users\Admin\OneDrive\Máy tính\kafka\demo\target\classes started by Admin in C:\Users\Admin\OneDrive\Máy tính\kafka\demo)
+2026-09-24T15:56:10.804+07:00  INFO 2992 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-09-24T15:56:11.355+07:00  INFO 2992 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24T15:56:11.355+07:00  INFO 2992 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-24T15:56:11.386+07:00  INFO 2992 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 3 JPA repository interfaces.
+2026-09-24T15:56:11.389+07:00  INFO 2992 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24T15:56:11.389+07:00  INFO 2992 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-09-24T15:56:11.389+07:00  INFO 2992 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.messaging.idempotency.ProcessedMessageRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-09-24T15:56:11.389+07:00  INFO 2992 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.messaging.outbound.repository.OutboundSendQueueRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-09-24T15:56:11.389+07:00  INFO 2992 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.order.repository.OrderRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-09-24T15:56:11.389+07:00  INFO 2992 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2026-09-24T15:56:11.882+07:00  INFO 2992 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-24T15:56:11.884+07:00  INFO 2992 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-24T15:56:11.884+07:00  INFO 2992 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-24T15:56:11.913+07:00  INFO 2992 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1105 ms
+2026-09-24T15:56:12.001+07:00  INFO 2992 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-09-24T15:56:12.035+07:00  INFO 2992 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@5b7f89a7
+2026-09-24T15:56:12.035+07:00  INFO 2992 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-09-24T15:56:12.037+07:00  INFO 2992 --- [demo] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://localhost:5432/kafka_demo (PostgreSQL 16.15)
+2026-09-24T15:56:12.067+07:00  INFO 2992 --- [demo] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 3 migrations (execution time 00:00.012s)
+2026-09-24T15:56:12.113+07:00  INFO 2992 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 3
+2026-09-24T15:56:12.114+07:00  INFO 2992 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2026-09-24T15:56:12.194+07:00  INFO 2992 --- [demo] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-24T15:56:12.293+07:00  INFO 2992 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-24T15:56:12.323+07:00  INFO 2992 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/kafka_demo]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: kafka_demo/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-24T15:56:12.633+07:00  INFO 2992 --- [demo] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-24T15:56:12.656+07:00  INFO 2992 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-24T15:56:13.433+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.config.AbstractConfig   : AdminClientConfig values: 
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = demo-admin-1
+	config.providers = []
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = false
+	metadata.max.age.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2026-09-24T15:56:13.526+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 4.2.1
+2026-09-24T15:56:13.526+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 92f61c44867f39dc
+2026-09-24T15:56:13.530+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1790240173526
+2026-09-24T15:56:13.552+07:00  INFO 2992 --- [demo] [restartedMain] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-09-24T15:56:13.553+07:00  INFO 2992 --- [demo] [restartedMain] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-24T15:56:13.553+07:00  INFO 2992 --- [demo] [restartedMain] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-09-24T15:56:13.553+07:00  INFO 2992 --- [demo] [kafka-admin-client-thread | demo-admin-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for demo-admin-1 unregistered
+2026-09-24T15:56:13.556+07:00  INFO 2992 --- [demo] [kafka-admin-client-thread | demo-admin-1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-09-24T15:56:13.556+07:00  INFO 2992 --- [demo] [kafka-admin-client-thread | demo-admin-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-24T15:56:13.557+07:00  INFO 2992 --- [demo] [kafka-admin-client-thread | demo-admin-1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-09-24T15:56:13.561+07:00  INFO 2992 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-24T15:56:13.564+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.config.AbstractConfig   : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-fake-ministry-3
+	client.rack = 
+	config.providers = []
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = fake-ministry
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	share.acknowledgement.mode = implicit
+	share.acquire.mode = BATCH_OPTIMIZED
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+
+2026-09-24T15:56:13.565+07:00  INFO 2992 --- [demo] [restartedMain] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2026-09-24T15:56:13.573+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 4.2.1
+2026-09-24T15:56:13.573+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 92f61c44867f39dc
+2026-09-24T15:56:13.573+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1790240173573
+2026-09-24T15:56:13.574+07:00  INFO 2992 --- [demo] [restartedMain] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-fake-ministry-3, groupId=fake-ministry] Subscribed to topic(s): order.request
+2026-09-24T15:56:13.576+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.config.AbstractConfig   : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-enterprise-demo-4
+	client.rack = 
+	config.providers = []
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = enterprise-demo
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	share.acknowledgement.mode = implicit
+	share.acquire.mode = BATCH_OPTIMIZED
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+
+2026-09-24T15:56:13.577+07:00  INFO 2992 --- [demo] [restartedMain] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2026-09-24T15:56:13.584+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 4.2.1
+2026-09-24T15:56:13.584+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 92f61c44867f39dc
+2026-09-24T15:56:13.585+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1790240173584
+2026-09-24T15:56:13.585+07:00  INFO 2992 --- [demo] [restartedMain] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-enterprise-demo-4, groupId=enterprise-demo] Subscribed to topic(s): order.result
+2026-09-24T15:56:13.591+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-fake-ministry-3, groupId=fake-ministry] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-09-24T15:56:13.591+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-3, groupId=fake-ministry] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false)
+2026-09-24T15:56:13.593+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-enterprise-demo-4, groupId=enterprise-demo] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-09-24T15:56:13.593+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-3, groupId=fake-ministry] (Re-)joining group
+2026-09-24T15:56:13.594+07:00  INFO 2992 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.981 seconds (process running for 22720.832)
+2026-09-24T15:56:13.595+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-4, groupId=enterprise-demo] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false)
+2026-09-24T15:56:13.596+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-4, groupId=enterprise-demo] (Re-)joining group
+2026-09-24T15:56:13.598+07:00  INFO 2992 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-24T15:56:13.600+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-3, groupId=fake-ministry] Request joining group due to: need to re-join with the given member-id: consumer-fake-ministry-3-29f95d95-b19c-4ebc-b7be-c1a8ae4b9e4f
+2026-09-24T15:56:13.600+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-3, groupId=fake-ministry] (Re-)joining group
+2026-09-24T15:56:13.601+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-4, groupId=enterprise-demo] Request joining group due to: need to re-join with the given member-id: consumer-enterprise-demo-4-7f47ca75-37e6-4c32-98f6-054b2e9af57c
+2026-09-24T15:56:13.602+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-4, groupId=enterprise-demo] (Re-)joining group
+2026-09-24T15:56:14.833+07:00  INFO 2992 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 36 class path changes (36 additions, 0 deletions, 0 modifications)
+2026-09-24T15:56:14.835+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-4, groupId=enterprise-demo] Member consumer-enterprise-demo-4-7f47ca75-37e6-4c32-98f6-054b2e9af57c sending LeaveGroup request to coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false) due to the consumer unsubscribed from all topics
+2026-09-24T15:56:14.835+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-3, groupId=fake-ministry] Member consumer-fake-ministry-3-29f95d95-b19c-4ebc-b7be-c1a8ae4b9e4f sending LeaveGroup request to coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false) due to the consumer unsubscribed from all topics
+2026-09-24T15:56:14.836+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-4, groupId=enterprise-demo] Resetting generation and member id due to: consumer pro-actively leaving the group
+2026-09-24T15:56:14.836+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-3, groupId=fake-ministry] Resetting generation and member id due to: consumer pro-actively leaving the group
+2026-09-24T15:56:14.836+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-4, groupId=enterprise-demo] Request joining group due to: consumer pro-actively leaving the group
+2026-09-24T15:56:14.836+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-3, groupId=fake-ministry] Request joining group due to: consumer pro-actively leaving the group
+2026-09-24T15:56:14.836+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-enterprise-demo-4, groupId=enterprise-demo] Unsubscribed all topics or patterns and assigned partitions
+2026-09-24T15:56:14.836+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-fake-ministry-3, groupId=fake-ministry] Unsubscribed all topics or patterns and assigned partitions
+2026-09-24T15:56:14.836+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-4, groupId=enterprise-demo] Resetting generation and member id due to: consumer pro-actively leaving the group
+2026-09-24T15:56:14.836+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-3, groupId=fake-ministry] Resetting generation and member id due to: consumer pro-actively leaving the group
+2026-09-24T15:56:14.836+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-4, groupId=enterprise-demo] Request joining group due to: consumer pro-actively leaving the group
+2026-09-24T15:56:14.836+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-3, groupId=fake-ministry] Request joining group due to: consumer pro-actively leaving the group
+2026-09-24T15:56:16.200+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Request joining group due to: group is already rebalancing
+2026-09-24T15:56:16.200+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Request joining group due to: group is already rebalancing
+2026-09-24T15:56:16.201+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] k.c.c.i.ConsumerRebalanceListenerInvoker : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Revoke previously assigned partitions [order.result-0, order.result-1, order.result-2]
+2026-09-24T15:56:16.201+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] k.c.c.i.ConsumerRebalanceListenerInvoker : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Revoke previously assigned partitions [order.request-0, order.request-1, order.request-2]
+2026-09-24T15:56:16.201+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : fake-ministry: partitions revoked: [order.request-0, order.request-1, order.request-2]
+2026-09-24T15:56:16.201+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : enterprise-demo: partitions revoked: [order.result-0, order.result-1, order.result-2]
+2026-09-24T15:56:16.203+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] (Re-)joining group
+2026-09-24T15:56:16.203+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] (Re-)joining group
+2026-09-24T15:56:16.210+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Successfully joined group with generation Generation{generationId=30, memberId='consumer-fake-ministry-1-1c62ebfc-551b-4af7-b98c-7fa996dd3776', protocol='range'}
+2026-09-24T15:56:16.211+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Finished assignment for group at generation 30: {consumer-fake-ministry-1-1c62ebfc-551b-4af7-b98c-7fa996dd3776=Assignment(partitions=[order.request-0, order.request-1]), consumer-fake-ministry-3-29f95d95-b19c-4ebc-b7be-c1a8ae4b9e4f=Assignment(partitions=[order.request-2])}
+2026-09-24T15:56:16.214+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Successfully joined group with generation Generation{generationId=30, memberId='consumer-enterprise-demo-2-a8106c7d-1953-4cd3-86a8-91d24d5c38c2', protocol='range'}
+2026-09-24T15:56:16.216+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Finished assignment for group at generation 30: {consumer-enterprise-demo-2-a8106c7d-1953-4cd3-86a8-91d24d5c38c2=Assignment(partitions=[order.result-0, order.result-1]), consumer-enterprise-demo-4-7f47ca75-37e6-4c32-98f6-054b2e9af57c=Assignment(partitions=[order.result-2])}
+2026-09-24T15:56:16.218+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-09-24T15:56:16.218+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-24T15:56:16.219+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2026-09-24T15:56:16.219+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-09-24T15:56:16.223+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-enterprise-demo-4 unregistered
+2026-09-24T15:56:16.224+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : enterprise-demo: Consumer stopped
+2026-09-24T15:56:16.280+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-09-24T15:56:16.280+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-24T15:56:16.280+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2026-09-24T15:56:16.281+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-09-24T15:56:16.283+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-fake-ministry-3 unregistered
+2026-09-24T15:56:16.284+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : fake-ministry: Consumer stopped
+2026-09-24T15:56:16.284+07:00  INFO 2992 --- [demo] [Thread-6] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-24T15:56:16.546+07:00  INFO 2992 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-24T15:56:16.548+07:00  INFO 2992 --- [demo] [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-24T15:56:16.551+07:00  INFO 2992 --- [demo] [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-09-24T15:56:16.554+07:00  INFO 2992 --- [demo] [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-09-24T15:56:16.886+07:00  INFO 2992 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.10 with PID 2992 (C:\Users\Admin\OneDrive\Máy tính\kafka\demo\target\classes started by Admin in C:\Users\Admin\OneDrive\Máy tính\kafka\demo)
+2026-09-24T15:56:16.888+07:00  INFO 2992 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-09-24T15:56:17.066+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] SyncGroup failed: The group began another rebalance. Need to re-join the group. Sent generation was Generation{generationId=30, memberId='consumer-fake-ministry-1-1c62ebfc-551b-4af7-b98c-7fa996dd3776', protocol='range'}
+2026-09-24T15:56:17.066+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] SyncGroup failed: The group began another rebalance. Need to re-join the group. Sent generation was Generation{generationId=30, memberId='consumer-enterprise-demo-2-a8106c7d-1953-4cd3-86a8-91d24d5c38c2', protocol='range'}
+2026-09-24T15:56:17.066+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Request joining group due to: rebalance failed due to 'The group is rebalancing, so a rejoin is needed.' (RebalanceInProgressException)
+2026-09-24T15:56:17.066+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Request joining group due to: rebalance failed due to 'The group is rebalancing, so a rejoin is needed.' (RebalanceInProgressException)
+2026-09-24T15:56:17.066+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] (Re-)joining group
+2026-09-24T15:56:17.067+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] (Re-)joining group
+2026-09-24T15:56:17.070+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Successfully joined group with generation Generation{generationId=31, memberId='consumer-enterprise-demo-2-a8106c7d-1953-4cd3-86a8-91d24d5c38c2', protocol='range'}
+2026-09-24T15:56:17.070+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Successfully joined group with generation Generation{generationId=31, memberId='consumer-fake-ministry-1-1c62ebfc-551b-4af7-b98c-7fa996dd3776', protocol='range'}
+2026-09-24T15:56:17.071+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Finished assignment for group at generation 31: {consumer-enterprise-demo-2-a8106c7d-1953-4cd3-86a8-91d24d5c38c2=Assignment(partitions=[order.result-0, order.result-1, order.result-2])}
+2026-09-24T15:56:17.071+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Finished assignment for group at generation 31: {consumer-fake-ministry-1-1c62ebfc-551b-4af7-b98c-7fa996dd3776=Assignment(partitions=[order.request-0, order.request-1, order.request-2])}
+2026-09-24T15:56:17.074+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Successfully synced group in generation Generation{generationId=31, memberId='consumer-fake-ministry-1-1c62ebfc-551b-4af7-b98c-7fa996dd3776', protocol='range'}
+2026-09-24T15:56:17.074+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Notifying assignor about the new Assignment(partitions=[order.request-0, order.request-1, order.request-2])
+2026-09-24T15:56:17.075+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] k.c.c.i.ConsumerRebalanceListenerInvoker : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Adding newly assigned partitions: [order.request-0, order.request-1, order.request-2]
+2026-09-24T15:56:17.077+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.request-1 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T15:56:17.078+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.request-2 to the committed offset FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T15:56:17.078+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.request-0 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T15:56:17.079+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : fake-ministry: partitions assigned: [order.request-0, order.request-1, order.request-2]
+2026-09-24T15:56:17.089+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Successfully synced group in generation Generation{generationId=31, memberId='consumer-enterprise-demo-2-a8106c7d-1953-4cd3-86a8-91d24d5c38c2', protocol='range'}
+2026-09-24T15:56:17.089+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Notifying assignor about the new Assignment(partitions=[order.result-0, order.result-1, order.result-2])
+2026-09-24T15:56:17.090+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] k.c.c.i.ConsumerRebalanceListenerInvoker : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Adding newly assigned partitions: [order.result-0, order.result-1, order.result-2]
+2026-09-24T15:56:17.093+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.result-2 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T15:56:17.093+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.result-1 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T15:56:17.094+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.result-0 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T15:56:17.094+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : enterprise-demo: partitions assigned: [order.result-0, order.result-1, order.result-2]
+2026-09-24T15:56:17.125+07:00  INFO 2992 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24T15:56:17.125+07:00  INFO 2992 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-24T15:56:17.149+07:00  INFO 2992 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 3 JPA repository interfaces.
+2026-09-24T15:56:17.155+07:00  INFO 2992 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-09-24T15:56:17.156+07:00  INFO 2992 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-09-24T15:56:17.163+07:00  INFO 2992 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.messaging.idempotency.ProcessedMessageRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-09-24T15:56:17.163+07:00  INFO 2992 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.messaging.outbound.repository.OutboundSendQueueRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-09-24T15:56:17.163+07:00  INFO 2992 --- [demo] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.order.repository.OrderRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-09-24T15:56:17.164+07:00  INFO 2992 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2026-09-24T15:56:17.289+07:00  INFO 2992 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+2026-09-24T15:56:17.289+07:00  INFO 2992 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-24T15:56:17.289+07:00  INFO 2992 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-24T15:56:17.310+07:00  INFO 2992 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 421 ms
+2026-09-24T15:56:17.361+07:00  INFO 2992 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-09-24T15:56:17.387+07:00  INFO 2992 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@46fa7a48
+2026-09-24T15:56:17.387+07:00  INFO 2992 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-09-24T15:56:17.389+07:00  INFO 2992 --- [demo] [restartedMain] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://localhost:5432/kafka_demo (PostgreSQL 16.15)
+2026-09-24T15:56:17.419+07:00  INFO 2992 --- [demo] [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 3 migrations (execution time 00:00.010s)
+2026-09-24T15:56:17.459+07:00  INFO 2992 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 3
+2026-09-24T15:56:17.460+07:00  INFO 2992 --- [demo] [restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2026-09-24T15:56:17.484+07:00  INFO 2992 --- [demo] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-24T15:56:17.515+07:00  INFO 2992 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-24T15:56:17.524+07:00  INFO 2992 --- [demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/kafka_demo]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.15
+	Default catalog/schema: kafka_demo/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-24T15:56:17.619+07:00  INFO 2992 --- [demo] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-24T15:56:17.641+07:00  INFO 2992 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-24T15:56:18.129+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.config.AbstractConfig   : AdminClientConfig values: 
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = demo-admin-2
+	config.providers = []
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = false
+	metadata.max.age.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2026-09-24T15:56:18.188+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 4.2.1
+2026-09-24T15:56:18.188+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 92f61c44867f39dc
+2026-09-24T15:56:18.188+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1790240178188
+2026-09-24T15:56:18.207+07:00  INFO 2992 --- [demo] [restartedMain] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-09-24T15:56:18.208+07:00  INFO 2992 --- [demo] [restartedMain] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-24T15:56:18.208+07:00  INFO 2992 --- [demo] [restartedMain] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-09-24T15:56:18.208+07:00  INFO 2992 --- [demo] [kafka-admin-client-thread | demo-admin-2] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for demo-admin-2 unregistered
+2026-09-24T15:56:18.210+07:00  INFO 2992 --- [demo] [kafka-admin-client-thread | demo-admin-2] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-09-24T15:56:18.210+07:00  INFO 2992 --- [demo] [kafka-admin-client-thread | demo-admin-2] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-09-24T15:56:18.211+07:00  INFO 2992 --- [demo] [kafka-admin-client-thread | demo-admin-2] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-09-24T15:56:18.213+07:00  INFO 2992 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+2026-09-24T15:56:18.215+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.config.AbstractConfig   : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-fake-ministry-5
+	client.rack = 
+	config.providers = []
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = fake-ministry
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	share.acknowledgement.mode = implicit
+	share.acquire.mode = BATCH_OPTIMIZED
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+
+2026-09-24T15:56:18.216+07:00  INFO 2992 --- [demo] [restartedMain] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2026-09-24T15:56:18.222+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 4.2.1
+2026-09-24T15:56:18.222+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 92f61c44867f39dc
+2026-09-24T15:56:18.222+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1790240178222
+2026-09-24T15:56:18.222+07:00  INFO 2992 --- [demo] [restartedMain] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-fake-ministry-5, groupId=fake-ministry] Subscribed to topic(s): order.request
+2026-09-24T15:56:18.223+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.config.AbstractConfig   : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-enterprise-demo-6
+	client.rack = 
+	config.providers = []
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = enterprise-demo
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.rebootstrap.trigger.ms = 300000
+	metadata.recovery.strategy = rebootstrap
+	metric.reporters = [org.apache.kafka.common.metrics.JmxReporter]
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.assertion.algorithm = RS256
+	sasl.oauthbearer.assertion.claim.aud = null
+	sasl.oauthbearer.assertion.claim.exp.seconds = 300
+	sasl.oauthbearer.assertion.claim.iss = null
+	sasl.oauthbearer.assertion.claim.jti.include = false
+	sasl.oauthbearer.assertion.claim.nbf.seconds = 60
+	sasl.oauthbearer.assertion.claim.sub = null
+	sasl.oauthbearer.assertion.file = null
+	sasl.oauthbearer.assertion.private.key.file = null
+	sasl.oauthbearer.assertion.private.key.passphrase = null
+	sasl.oauthbearer.assertion.template.file = null
+	sasl.oauthbearer.client.credentials.client.id = null
+	sasl.oauthbearer.client.credentials.client.secret = null
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = []
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.jwt.retriever.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+	sasl.oauthbearer.jwt.validator.class = class org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+	sasl.oauthbearer.scope = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	share.acknowledgement.mode = implicit
+	share.acquire.mode = BATCH_OPTIMIZED
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = []
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+
+2026-09-24T15:56:18.225+07:00  INFO 2992 --- [demo] [restartedMain] o.a.k.c.t.i.KafkaMetricsCollector        : initializing Kafka metrics collector
+2026-09-24T15:56:18.229+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-fake-ministry-5, groupId=fake-ministry] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-09-24T15:56:18.229+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-5, groupId=fake-ministry] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false)
+2026-09-24T15:56:18.230+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-5, groupId=fake-ministry] (Re-)joining group
+2026-09-24T15:56:18.231+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 4.2.1
+2026-09-24T15:56:18.232+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 92f61c44867f39dc
+2026-09-24T15:56:18.232+07:00  INFO 2992 --- [demo] [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1790240178231
+2026-09-24T15:56:18.232+07:00  INFO 2992 --- [demo] [restartedMain] o.a.k.c.c.i.ClassicKafkaConsumer         : [Consumer clientId=consumer-enterprise-demo-6, groupId=enterprise-demo] Subscribed to topic(s): order.result
+2026-09-24T15:56:18.235+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-5, groupId=fake-ministry] Request joining group due to: need to re-join with the given member-id: consumer-fake-ministry-5-dd4f9be2-e170-4f5e-8c94-e8cb2ca695e2
+2026-09-24T15:56:18.236+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-5, groupId=fake-ministry] (Re-)joining group
+2026-09-24T15:56:18.238+07:00  INFO 2992 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.39 seconds (process running for 22725.477)
+2026-09-24T15:56:18.240+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-enterprise-demo-6, groupId=enterprise-demo] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-09-24T15:56:18.241+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-6, groupId=enterprise-demo] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null isFenced: false)
+2026-09-24T15:56:18.242+07:00  INFO 2992 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-24T15:56:18.242+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-6, groupId=enterprise-demo] (Re-)joining group
+2026-09-24T15:56:18.248+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-6, groupId=enterprise-demo] Request joining group due to: need to re-join with the given member-id: consumer-enterprise-demo-6-ff1825dc-2a2c-4ec0-98d3-0e972a559dc3
+2026-09-24T15:56:18.248+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-6, groupId=enterprise-demo] (Re-)joining group
+2026-09-24T15:56:20.088+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Request joining group due to: group is already rebalancing
+2026-09-24T15:56:20.088+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Request joining group due to: group is already rebalancing
+2026-09-24T15:56:20.088+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] k.c.c.i.ConsumerRebalanceListenerInvoker : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Revoke previously assigned partitions [order.result-0, order.result-1, order.result-2]
+2026-09-24T15:56:20.088+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] k.c.c.i.ConsumerRebalanceListenerInvoker : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Revoke previously assigned partitions [order.request-0, order.request-1, order.request-2]
+2026-09-24T15:56:20.088+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : enterprise-demo: partitions revoked: [order.result-0, order.result-1, order.result-2]
+2026-09-24T15:56:20.089+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : fake-ministry: partitions revoked: [order.request-0, order.request-1, order.request-2]
+2026-09-24T15:56:20.089+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] (Re-)joining group
+2026-09-24T15:56:20.089+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] (Re-)joining group
+2026-09-24T15:56:20.092+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-6, groupId=enterprise-demo] Successfully joined group with generation Generation{generationId=32, memberId='consumer-enterprise-demo-6-ff1825dc-2a2c-4ec0-98d3-0e972a559dc3', protocol='range'}
+2026-09-24T15:56:20.092+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Successfully joined group with generation Generation{generationId=32, memberId='consumer-fake-ministry-1-1c62ebfc-551b-4af7-b98c-7fa996dd3776', protocol='range'}
+2026-09-24T15:56:20.092+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-5, groupId=fake-ministry] Successfully joined group with generation Generation{generationId=32, memberId='consumer-fake-ministry-5-dd4f9be2-e170-4f5e-8c94-e8cb2ca695e2', protocol='range'}
+2026-09-24T15:56:20.092+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Successfully joined group with generation Generation{generationId=32, memberId='consumer-enterprise-demo-2-a8106c7d-1953-4cd3-86a8-91d24d5c38c2', protocol='range'}
+2026-09-24T15:56:20.093+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Finished assignment for group at generation 32: {consumer-enterprise-demo-2-a8106c7d-1953-4cd3-86a8-91d24d5c38c2=Assignment(partitions=[order.result-0, order.result-1]), consumer-enterprise-demo-6-ff1825dc-2a2c-4ec0-98d3-0e972a559dc3=Assignment(partitions=[order.result-2])}
+2026-09-24T15:56:20.093+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Finished assignment for group at generation 32: {consumer-fake-ministry-1-1c62ebfc-551b-4af7-b98c-7fa996dd3776=Assignment(partitions=[order.request-0, order.request-1]), consumer-fake-ministry-5-dd4f9be2-e170-4f5e-8c94-e8cb2ca695e2=Assignment(partitions=[order.request-2])}
+2026-09-24T15:56:20.239+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-5, groupId=fake-ministry] Successfully synced group in generation Generation{generationId=32, memberId='consumer-fake-ministry-5-dd4f9be2-e170-4f5e-8c94-e8cb2ca695e2', protocol='range'}
+2026-09-24T15:56:20.239+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-6, groupId=enterprise-demo] Successfully synced group in generation Generation{generationId=32, memberId='consumer-enterprise-demo-6-ff1825dc-2a2c-4ec0-98d3-0e972a559dc3', protocol='range'}
+2026-09-24T15:56:20.239+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Successfully synced group in generation Generation{generationId=32, memberId='consumer-enterprise-demo-2-a8106c7d-1953-4cd3-86a8-91d24d5c38c2', protocol='range'}
+2026-09-24T15:56:20.239+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-6, groupId=enterprise-demo] Notifying assignor about the new Assignment(partitions=[order.result-2])
+2026-09-24T15:56:20.239+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Successfully synced group in generation Generation{generationId=32, memberId='consumer-fake-ministry-1-1c62ebfc-551b-4af7-b98c-7fa996dd3776', protocol='range'}
+2026-09-24T15:56:20.239+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-5, groupId=fake-ministry] Notifying assignor about the new Assignment(partitions=[order.request-2])
+2026-09-24T15:56:20.240+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] k.c.c.i.ConsumerRebalanceListenerInvoker : [Consumer clientId=consumer-enterprise-demo-6, groupId=enterprise-demo] Adding newly assigned partitions: [order.result-2]
+2026-09-24T15:56:20.240+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] k.c.c.i.ConsumerRebalanceListenerInvoker : [Consumer clientId=consumer-fake-ministry-5, groupId=fake-ministry] Adding newly assigned partitions: [order.request-2]
+2026-09-24T15:56:20.240+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Notifying assignor about the new Assignment(partitions=[order.request-0, order.request-1])
+2026-09-24T15:56:20.240+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Notifying assignor about the new Assignment(partitions=[order.result-0, order.result-1])
+2026-09-24T15:56:20.241+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] k.c.c.i.ConsumerRebalanceListenerInvoker : [Consumer clientId=consumer-fake-ministry-1, groupId=fake-ministry] Adding newly assigned partitions: [order.request-0, order.request-1]
+2026-09-24T15:56:20.241+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] k.c.c.i.ConsumerRebalanceListenerInvoker : [Consumer clientId=consumer-enterprise-demo-2, groupId=enterprise-demo] Adding newly assigned partitions: [order.result-0, order.result-1]
+2026-09-24T15:56:20.244+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.result-2 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T15:56:20.244+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.request-2 to the committed offset FetchPosition{offset=9, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T15:56:20.244+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : fake-ministry: partitions assigned: [order.request-2]
+2026-09-24T15:56:20.244+07:00  INFO 2992 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : enterprise-demo: partitions assigned: [order.result-2]
+2026-09-24T15:56:20.245+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.request-1 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T15:56:20.245+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.result-1 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T15:56:20.246+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.request-0 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T15:56:20.246+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerUtils        : Setting offset for partition order.result-0 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null isFenced: false)], epoch=2}}
+2026-09-24T15:56:20.247+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : fake-ministry: partitions assigned: [order.request-0, order.request-1]
+2026-09-24T15:56:20.248+07:00  INFO 11484 --- [demo] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : enterprise-demo: partitions assigned: [order.result-0, order.result-1]
+2026-09-24T15:56:46.072+07:00  INFO 2992 --- [demo] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-24T15:56:46.072+07:00  INFO 2992 --- [demo] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-24T15:56:46.083+07:00  INFO 2992 --- [demo] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2026-09-24T15:56:46.102+07:00  WARN 2992 --- [demo] [http-nio-8081-exec-1] io.netty.bootstrap.Bootstrap             : Unknown channel option 'TCP_KEEPCOUNT' for channel '[id: 0x44186474]' of type 'class io.netty.channel.socket.nio.NioSocketChannel'
+2026-09-24T15:56:46.103+07:00  WARN 2992 --- [demo] [http-nio-8081-exec-1] io.netty.bootstrap.Bootstrap             : Unknown channel option 'TCP_KEEPIDLE' for channel '[id: 0x44186474]' of type 'class io.netty.channel.socket.nio.NioSocketChannel'
+2026-09-24T15:56:46.103+07:00  WARN 2992 --- [demo] [http-nio-8081-exec-1] io.netty.bootstrap.Bootstrap             : Unknown channel option 'TCP_KEEPINTERVAL' for channel '[id: 0x44186474]' of type 'class io.netty.channel.socket.nio.NioSocketChannel'
+2026-09-24T15:56:47.391+07:00  INFO 11484 --- [demo] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-24T15:56:47.391+07:00  INFO 11484 --- [demo] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-24T15:56:47.394+07:00  INFO 11484 --- [demo] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-09-24T15:56:47.849+07:00  WARN 11484 --- [demo] [http-nio-8082-exec-1] io.netty.bootstrap.Bootstrap             : Unknown channel option 'TCP_KEEPCOUNT' for channel '[id: 0x6a2e5691]' of type 'class io.netty.channel.socket.nio.NioSocketChannel'
+2026-09-24T15:56:47.849+07:00  WARN 11484 --- [demo] [http-nio-8082-exec-1] io.netty.bootstrap.Bootstrap             : Unknown channel option 'TCP_KEEPIDLE' for channel '[id: 0x6a2e5691]' of type 'class io.netty.channel.socket.nio.NioSocketChannel'
+2026-09-24T15:56:47.849+07:00  WARN 11484 --- [demo] [http-nio-8082-exec-1] io.netty.bootstrap.Bootstrap             : Unknown channel option 'TCP_KEEPINTERVAL' for channel '[id: 0x6a2e5691]' of type 'class io.netty.channel.socket.nio.NioSocketChannel'
