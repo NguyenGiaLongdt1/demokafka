@@ -45,8 +45,17 @@ app:
     max-retry: 5
     processing-timeout-seconds: 300
     retry-delays-seconds: 10,30,60,300,900
+  jwt:
+    # Secret rieng cho Access Token (HMAC-SHA256 toi thieu 256-bit)
+    access-secret: 9a7b6c5d4e3f2a1b0c9d8e7f6a5b4c3d2e1f0a9b8c7d6e5f4a3b2c1d0e9f8a7b
+    # Thoi gian het han Access Token: 15 phut (900000 ms)
+    access-expiration-ms: 900000
+
+    # Secret rieng cho Refresh Token (HMAC-SHA256 toi thieu 256-bit)
+    refresh-secret: 1f2e3d4c5b6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c
+    # Thoi gian het han Refresh Token: 7 ngay (604800000 ms)
+    refresh-expiration-ms: 604800000
 
 logging:
   file:
     name: demo.log
-

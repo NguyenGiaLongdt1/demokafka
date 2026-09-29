@@ -15,6 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+import org.springframework.security.access.prepost.PreAuthorize;
+
 @RequestMapping("/api/orders")
 @RequiredArgsConstructor
 public class OrderController {
@@ -28,6 +30,7 @@ public class OrderController {
     }
 
     @PostMapping("/{id}/submit")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<OrderResponse> submit(@PathVariable Long id) {
         return ResponseEntity.ok(orderService.submit(id));
     }
